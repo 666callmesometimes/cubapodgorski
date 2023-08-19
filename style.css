@@ -70,7 +70,7 @@ h5 {
 
 p {
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 500;
   width: 80%;
 }
 
@@ -83,7 +83,7 @@ p {
 }
 
 .description-left {
-  width: 25%;
+  width: 30%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -260,6 +260,8 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 6700px;
+  margin-top: 1300px;
 }
 
 .fashion-container {
@@ -423,7 +425,7 @@ h6 {
 .sketches-right {
   background-color: black;
   color: white;
-  background: linear-gradient(180deg, rgb(0, 0, 0) 95%, rgb(5, 19, 187) 96%);
+  background: linear-gradient(180deg, rgb(0, 0, 0) 90%, rgb(5, 19, 187) 90%);
 }
 
 .sketches {
@@ -558,7 +560,7 @@ h6 {
 }
 
 .signature img {
-  width: 40%;
+  width: 30%;
 }
 
 .credits-left,
@@ -568,7 +570,7 @@ h6 {
 }
 
 .credits-left img {
-  width: 100%;
+  width: 70%;
 }
 
 .credits {
@@ -584,11 +586,15 @@ h6 {
 }
 
 .credits-mid {
-  margin-top: 6rem;
+  margin-top: 3rem;
 }
 
 .credits-right {
-  margin-top: 32rem;
+  margin-top: 12rem;
+}
+
+.about h5 {
+  font-size: 1.2rem;
 }
 
 @media screen and (max-width: 1440px) {
@@ -659,8 +665,8 @@ h6 {
   }
   .carousel,
   .carousel img {
-    width: 50rem;
-    height: 40rem;
+    width: 40rem;
+    height: 42rem;
   }
   .sculptures-content p {
     position: relative;
@@ -707,6 +713,18 @@ h6 {
   }
   .t11 {
     left: -20%;
+  }
+  .description-left {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .description-right {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    gap: 6rem;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -836,6 +854,10 @@ h6 {
   .credits-mid,
   .credits-right {
     width: 70%;
+  }
+  .fashion-containers {
+    height: auto;
+    margin-top: auto;
   }
 }
 @media screen and (max-width: 700px) {
