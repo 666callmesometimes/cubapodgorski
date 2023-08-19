@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KUBA PODGORSKI - PERSONAL WEBSITE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Roboto+Serif:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+    </style>
+  </head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">KUBA PODGROSKI</a>
+            <div class="menu off">
+                <a href="exhibition.html">EXHIBITION</a>
+                <a href="digitalfashion.html">DIGITAL FASHION</a>
+                <a href="fashion.html">FASHION</a>
+                <a href="sketches.html">SKETCHES</a>
+                <a href="timeline.html">TIMELINE</a>
+                <a class="a-active" href="about.html">ABOUT</a>
+            </div>
+            <span id="menu-burger">
+              <span class="line"></span>
+              <span class="line"></span>
+              <span class="line"></span>
+            </span>
+        </nav>
+    </header>
+    <main>
+        <section class="about">
+            <div class="signature"><img src="img/about/kuba.png" alt="KUBA"></div>
+            <h5>I am Kuba Podgorski, a polish artist under the name KUBA, living in Netherlands, currently 
+                studying fashion design at Willem de Kooning Academy. Born in 2002, raised in the early stages 
+                of the internet. My work is heavily inspired by the difference of an online and offline world, how 
+                accessible and compressed sharing knowledge became and how it shaped the whole world. That 
+                infinite external memory aid including a mixture of all subjects. As a fashion artist, I want to 
+                transfer those feelings into clothing, every garment being not only a visually pleasing piece of 
+                clothing but also a conversation started, a beggining of a story. </h5>
+            <div class="credits">
+                <div class="credits-left">
+                    <img src="img/about/kubaimage.png" alt="image">
+                </div>
+                <div class="credits-mid">
+                    <h5>CONTACT</h5>
+                    <h5>IG: @CUBAPODGORSKI</h5>
+                    <h5>EMAIL: CUBAPODGORSKI@GMAIL.COM</h5>
+                </div>
+                <div class="credits-right">
+                    <p class="credits-text">WEBSITE WRITTEN BY MICHAEL BADOCHA</p>
+                    <p class="credits-text">DESIGNED BY KUBA PODGORSKI</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script>
+        const menuBtn = document.querySelector("#menu-burger");
+  const menu = document.querySelector(".menu");
+  
+  menuBtn.addEventListener('click' , function() {
+      menu.classList.toggle('off');
+  });
+  
+      </script>
+</body>
+</html>

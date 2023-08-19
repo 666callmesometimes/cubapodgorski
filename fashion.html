@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KUBA PODGORSKI - PERSONAL WEBSITE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Roboto+Serif:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        body{
+            overflow-x: hidden;
+        }
+    </style>
+  </head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">KUBA PODGROSKI</a>
+            <div class="menu off">
+                <a href="exhibition.html">EXHIBITION</a>
+                <a href="digitalfashion.html">DIGITAL FASHION</a>
+                <a class="a-active" href="fashion.html">FASHION</a>
+                <a href="sketches.html">SKETCHES</a>
+                <a href="timeline.html">TIMELINE</a>
+                <a href="about.html">ABOUT</a>
+            </div>
+            <span id="menu-burger">
+              <span class="line"></span>
+              <span class="line"></span>
+              <span class="line"></span>
+            </span>
+        </nav>
+    </header>
+    <main>
+        <h2 style="text-align: center; padding-top: 8rem; padding-bottom: 10rem;">CLICK ON THE PICTURE TO SEE THE WHOLE LOOK</h2>
+        <div class="fashion-containers">
+            <div class="fashion-container look1">
+                <h2>1.</h2>
+                <a href="look1.html">
+                <img class="look" src="img/look1/main.jpg" alt="main">
+                </a>
+            </div>
+            <div class="fashion-container look2">
+                <h2>2.</h2>
+                <a href="look2.html">
+                <img class="look" src="img/look2/main.jpg" alt="main">
+                </a>
+            </div>
+            <div class="fashion-container look3">
+                <h2>3.</h2>
+                <a href="look3.html">
+                <img class="look" src="img/look3/main.jpg" alt="main">
+                </a>
+            </div>
+            <div class="fashion-container look4">
+                <h2>4.</h2>
+                <a href="look4.html">
+                <img class="look" src="img/look4/main.jpg" alt="main">
+                </a>
+            </div>
+            <div class="fashion-container look5">
+                <h2>5.</h2>
+                <a href="look5.html">
+                <img class="look" src="img/look5/main.jpg" alt="main">
+                </a>
+            </div>
+            <div class="fashion-container look6">
+                <h2>6.</h2>
+                <a href="look6.html">
+                <img class="look" src="img/look6/main.jpg" alt="main">
+                </a>
+            </div>
+            <div class="fashion-container look7">
+                <h2>7.</h2>
+                <a href="look7.html">
+                <img class="look" src="img/look7/main.jpg" alt="main">
+                </a>
+            </div>
+            <div class="fashion-container look8">
+                <h2>8.</h2>
+                <a href="look8.html">
+                <img class="look" src="img/look8/main.jpg" alt="main">
+                </a>
+            </div>
+            <div class="fashion-container look9">
+                <h2>9.</h2>
+                <a href="look9.html">
+                <img class="look" src="img/look9/main.jpg" alt="main">
+                </a>
+            </div>
+            <div class="fashion-container look10">
+                <h2>10.</h2>
+                <a href="look10.html">
+                <img class="look" src="img/look10/main.jpg" alt="main">
+                </a>
+            </div>
+            <div class="fashion-container look11">
+                <h2>11.</h2>
+                <a href="look11.html">
+                <img class="look" src="img/look11/main.jpg" alt="main">
+                </a>
+            </div>
+        </div>
+    </main>
+    <footer>
+            <a class="homepage-btn timeline-btn" href="timeline.html">VISIT TIMELINE TO SEE DETAILS</a>
+    </footer>
+    <script>
+      const menuBtn = document.querySelector("#menu-burger");
+const menu = document.querySelector(".menu");
+
+menuBtn.addEventListener('click' , function() {
+    menu.classList.toggle('off');
+});
+
+    </script>
+</body>
+</html>
