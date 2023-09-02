@@ -712,6 +712,9 @@ h6{
     .menu a{
         font-size: 0.8rem;
     }
+    .timeline{
+        background: none;
+    }
 }
 
 @media screen and (max-width: 1000px){
@@ -805,6 +808,9 @@ h6{
     .fashion-containers{
         height: auto;
         margin-top: auto;
+    }
+    .timeline{
+        background: none;
     }
 }
 
