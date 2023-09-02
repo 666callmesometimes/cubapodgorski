@@ -504,10 +504,14 @@ h6{
 }
 .vid{
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     margin: 0;
     padding: 0;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 
@@ -581,7 +585,6 @@ h6{
     .carousel, 
     .carousel img{
         width:40rem;
-        height: 42rem;
     }
     .sculptures-content p{
         position: relative;
@@ -603,31 +606,51 @@ h6{
         top: 0;
     }
     .timeline{
-        background: none;
+        background-size: contain;
+    }
+    .t1{
+        left: 10%;
+        top: -150px;
     }
     .t2{
-        left: 20%;
+        left: 35%;
     }
     .t3{
-        left: -20%;
+        left: -30%;
+        top: -400px;
     }
     .t4{
         left: 20%;
+        top: -400px;
+    }
+    .t5{
+        top: -300px;
     }
     .t6{
-        left: 20%;
+        left: -10%;
+        top: -200px;
+
     }
     .t7{
         left: -20%;
+        top: -100px;
     }
     .t8{
         left: 20%;
     }
+    .t9{
+        left: 35%;
+        top: -150px;
+    }
     .t10{
-        left: 20%;
+        left: -35%;
     }
     .t11{
-        left: -20%;
+        left: 25%;
+        top: -400px;
+    }
+    .t12{
+        left: 25%;
     }
     .description-left{
         width:45%;
@@ -640,6 +663,9 @@ h6{
         flex-wrap: wrap;
         width:30%;
         gap: 6rem;
+    }
+    .timeline-item img{
+        width:14rem;
     }
 }
 
@@ -658,8 +684,7 @@ h6{
     }
     .carousel, 
     .carousel img{
-        width:100%;
-        height: 50vh;
+        width:90%;
     }
     .description-img{
         width:20rem;
@@ -847,6 +872,13 @@ h6{
     }
     .timeline-item{
         width: 90%;
+    }
+    .vid{
+        height: 100vh;
+    }
+    .carousel, 
+    .carousel img{
+        width:100%;
     }
 }
 
